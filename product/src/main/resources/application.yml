@@ -1,0 +1,46 @@
+## Loading Properties from ConfigServer
+server:
+  port: 8001
+
+spring:
+  application:
+    name: product
+  cloud:
+    config:
+      import: optional:configserver:http://localhost:8888
+  profiles:
+    active: default
+
+## Old local Properties
+
+#server:
+#  port: 8001
+#
+#spring:
+#  application:
+#    name: product
+#  main:
+#    allow-bean-definition-overriding: true
+#
+#management:
+#  tracing:
+#    sampling:
+#      probability: 1.0
+
+# healt:
+#   circuitbreakers:
+#      enabled: true
+
+#resilience4j:
+#  circuitbreaker:
+#    instances:
+#      product:
+#        registerHealthIndicator: true
+#        eventConsumerBufferSize: 10
+#        failureRateThreshold: 50
+#        minimumNumberOfCalls: 5
+#        automaticTransitionFromOpenToHalfOpenEnabled: true
+#        waitDurationInOpenState: 5s
+#        permittedNumberOfCallsInHalfOpenState: 3
+#        slidingWindowSize: 10
+#        slidingWindowType: COUNT_BASED

@@ -1,0 +1,17 @@
+
+œ
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÈÉ8…ê°Õõ1J$1000e087-057b-4648-9c6c-c5892af3612f
+z
+java:S26295"7Use the built-in formatting to construct this argument.(Şì¨8Õç±Õõ1J$15281500-bf73-4329-9dbb-6d3fafca64a6
+Œ
+java:S2259@"IA "NullPointerException" could be thrown; "productInfo" is nullable here.(¶€è8ê°Õõ1J$d1532495-55eb-4f05-bced-c13742b316f6
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ê°Õõ1J$a754e8a6-3442-43b2-8f6f-734fa564dde1
+…
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8ê°Õõ1J$ebbeb6b3-8a2e-4c65-826b-722db0f6d0bd
+}
+java:S6213)":Rename this variable to not match a restricted identifier.(«Ò—•8”ê°Õõ1J$7f7e7035-cf11-429d-a463-85440b86566a
+„
+java:S34575"AFormat specifiers should be used instead of string concatenation.(Şì¨8áç±Õõ1J$93eb273c-d13f-4afd-b4e4-fa258f1d99b1
+‰
+java:S3457E"AFormat specifiers should be used instead of string concatenation.(í¾ª³şÿÿÿÿ8–ê°Õõ1J$04d58e6c-10ef-4f83-8e9c-43147788d7a0
